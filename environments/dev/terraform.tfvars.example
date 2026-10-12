@@ -1,0 +1,19 @@
+aws_region  = "us-east-1"
+project_name = "platform"
+environment  = "dev"
+owner        = "platform-team"
+
+vpc_cidr = "10.20.0.0/16"
+az_count = 2
+
+# Pin zones explicitly in real environments so subnet placement cannot shift when
+# AWS adds availability zones to the region.
+availability_zones = []
+
+enable_nat_gateway      = true
+flow_log_retention_days = 365
+
+artifacts_bucket_name = "REPLACE-WITH-A-GLOBALLY-UNIQUE-NAME"
+
+noncurrent_version_expiration_days = 90
+lifecycle_glacier_transition_days  = 0

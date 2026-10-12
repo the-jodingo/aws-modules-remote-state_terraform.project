@@ -1,0 +1,14 @@
+aws_region    = "us-east-1"
+project_name  = "platform"
+environment   = "shared"
+owner         = "platform-team"
+
+state_bucket_name = "REPLACE-WITH-A-GLOBALLY-UNIQUE-NAME"
+lock_table_name   = "terraform-state-locks"
+
+noncurrent_version_expiration_days = 90
+force_destroy                      = false
+
+enable_access_logging      = true
+access_log_expiration_days = 365
+flow_log_retention_days    = 365
