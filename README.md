@@ -1,9 +1,6 @@
 # AWS Modules with Remote State
 
 [![Terraform](https://github.com/the-jodingo/aws-modules-remote-state_terraform.project/actions/workflows/terraform.yml/badge.svg)](https://github.com/the-jodingo/aws-modules-remote-state_terraform.project/actions/workflows/terraform.yml)
-[![Terraform Version](https://img.shields.io/badge/terraform-%3E%3D1.5-7B42BC?logo=terraform&logoColor=white)](https://developer.hashicorp.com/terraform)
-[![AWS Provider](https://img.shields.io/badge/aws%20provider-~%3E5.0-FF9900?logo=amazonaws&logoColor=white)](https://registry.terraform.io/providers/hashicorp/aws/latest)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 A hands-on lab for writing reusable Terraform modules and storing state remotely. You will
 build a small module library, create an S3 + DynamoDB backend, and wire the modules together
